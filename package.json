@@ -8,7 +8,7 @@
     "migrate": "sequelize-cli db:migrate",
     "migrate:undo": "sequelize-cli db:migrate:undo",
     "start": "nodemon app.js",
-    "eslint:fix": "eslint --fix --exit-on-fatal-error",
+    "eslint:fix": "eslint --fix",
     "prepare": "husky install"
   },
   "author": "",
