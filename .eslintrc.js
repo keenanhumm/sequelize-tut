@@ -7,7 +7,7 @@ module.exports = {
   'extends': [
     'google',
   ],
-  'ignorePatterns': ['node_modules'],
+  'ignorePatterns': ['node_modules/**/*'],
   'parserOptions': {
     'ecmaVersion': 13,
   },
